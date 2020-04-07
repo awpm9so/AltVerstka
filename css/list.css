@@ -1,0 +1,55 @@
+.div_list {
+    width: 389px;
+    height: 100vh;
+}
+
+.list__item {
+
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid rgba(34, 34, 34, 0.15);
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    height: 150px;
+}
+
+.list__item-head {
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+    margin-top: 35px;
+    margin-left: 135px;
+
+}
+
+.list__item-pic {
+    position: absolute;
+
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.list__item-content {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    /* Black */
+    color: #222222;
+
+    margin-top: 3px;
+    margin-left: 135px;
+    margin-right: 30px;
+
+}
