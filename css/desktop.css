@@ -5,7 +5,11 @@
 
 header {
     max-height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    background: #FFFFFF;
 }
+
+body {}
 
 .menu__item {
     margin-right: 40px;
@@ -30,7 +34,7 @@ a.logo__link {
 
 a.logo__link::before {
     content: '';
-    bottom: -25px;
+    bottom: -23px;
     right: 0;
     position: absolute;
     width: 0%;
@@ -72,7 +76,7 @@ a.menu__link {
 a.menu__link::before {
 
     content: '';
-    bottom: -22px;
+    bottom: -20px;
     right: 0;
     position: absolute;
     width: 0%;
@@ -88,14 +92,193 @@ a.menu__link:hover {
 
 
 a.menu__link:hover:before {
-
     width: 100%;
     left: 0;
+}
+
+.main__screen {
+    position: absolute;
+    z-index: 1;
+    height: 701px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(34, 34, 34, 0.1);
+}
+
+.content__header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #222222;
+
+    margin-top: 89px;
+    margin-left: 60px;
+    margin-right: 556px;
+}
+
+.content__p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #222222;
+
+    margin-top: 10px;
+    margin-left: 60px;
+
 
 }
 
-hr {
-    margin: 0;
-    opacity: 0.15;
-    border: 1px solid #222222;
+.content_button {
+    position: absolute;
+    background: #222222;
+    border-radius: 3px;
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 214px;
+    height: 70px;
+
+}
+
+.content_button a {
+    text-decoration: none;
+}
+
+.content__button__pic {
+    position: absolute;
+    margin-left: 22px;
+    margin-top: 15px;
+}
+
+.content__button__p {
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-left: 76px;
+    margin-top: 13px;
+}
+
+.content__button__h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    margin-left: 77px;
+    margin-top: 2px;
+}
+
+.scroll_down {
+    position: absolute;
+    width: 254px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 342px;
+    opacity: 0.6;
+}
+
+.scroll_down__pic {
+    position: absolute;
+    margin-left: 232px;
+}
+
+.scroll_down__p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #222222;
+    margin-top: 6px;
+}
+
+.alien_boy {
+    margin-top: 81px;
+    margin-bottom: 119px;
+}
+
+
+.content {
+    position: absolute;
+    z-index: 0;
+    left: 60px;
+    top: 495px;
+    width: 1246px;
+    height: 1062px;
+}
+
+.content__block {
+    position: absolute;
+    width: 817px;
+    height: 570px;
+    background: #FFFFFF;
+    border: 1px solid rgba(34, 34, 34, 0.15);
+    box-sizing: border-box;
+    border-radius: 3px;
+
+
+    margin-top: 246px;
+}
+
+.content__block__pic {
+    position: absolute;
+    ;
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+.content__block__text {
+    padding: 199px 60px 248px 369px;
+}
+
+.content__block__text_h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.content__block__text_p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #222222;
+
+    margin-top: 20px;
+}
+
+
+footer {
+    background: linear-gradient(261.63deg, #494949 0%, #000000 100%);
+    box-shadow: 0px 0px 40px rgba(34, 34, 34, 0.1);
+    z-index: 89;
 }
