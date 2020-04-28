@@ -64,7 +64,6 @@ a.logo__link:hover:before {
 }
 
 
-
 a.menu__link {
     position: relative;
     color: #222222;
@@ -100,6 +99,7 @@ a.menu__link:hover:before {
     position: absolute;
     z-index: 1;
     height: 701px;
+    width: 1366px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(34, 34, 34, 0.1);
@@ -244,13 +244,12 @@ a.menu__link:hover:before {
 
 .content__block__pic {
     position: absolute;
-    ;
     margin-top: 150px;
     margin-left: 60px;
 }
 
 .content__block__text {
-    padding: 199px 60px 248px 369px;
+    padding: 199px 60px 150px 369px;
 }
 
 .content__block__text_h1 {
@@ -278,7 +277,27 @@ a.menu__link:hover:before {
 
 
 footer {
+    position: absolute;
     background: linear-gradient(261.63deg, #494949 0%, #000000 100%);
     box-shadow: 0px 0px 40px rgba(34, 34, 34, 0.1);
-    z-index: 89;
+    z-index: 1;
+    left: 0px;
+    top: 1351px;
+    width: 1366px;
+    height: 199px;
+
+
+}
+
+.penny__pic {
+    top: 0px;
+    margin-left: 60px;
+
+
+
+}
+
+.baloon__pic {
+    margin-left: 40px;
+    margin-bottom: 20px;
 }
