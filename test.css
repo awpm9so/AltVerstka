@@ -180,9 +180,7 @@ header {
 
     display: flex;
     padding: 0 60px 0 60px;
-
     top: 495px;
-
     z-index: 1;
 }
 
@@ -240,12 +238,14 @@ header {
     overflow-y: scroll;
 }
 
+
+/*
 .div_list::-webkit-scrollbar {
     display: none;
 }
+*/
 
 .list__item {
-
     position: relative;
     background: #FFFFFF;
     border: 1px solid rgba(34, 34, 34, 0.15);
@@ -313,6 +313,7 @@ footer {
 }
 
 .penny {
+    position: relative;
     padding-left: 30px;
 }
 
@@ -358,18 +359,49 @@ footer {
         padding-top: 10px;
     }
 
+    .inner__text-h1 {
+        font-size: 40px;
+    }
+
+    .inner__text-p {
+        max-width: 325px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .inner__content-scroll_down {
+        display: none;
+    }
+
     .content-wrapper {
         flex-direction: column-reverse;
     }
 
+    .block {
+        margin: 0;
+        padding: 0px;
+        flex-direction: column;
+    }
+
+    .block_text {
+        padding: 0;
+        margin: 30px;
+    }
+
+    .block__pic {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+
     .alien-pic {
-        right: 0px;
         width: 176px;
         height: 140px;
     }
 
     .alien {
-        padding-right: 21px;
+        padding-top: 31px;
+        padding-right: 34px;
         align-self: flex-end;
     }
 
@@ -379,21 +411,77 @@ footer {
     }
 
 
-
-
     .inner__content {
         padding: 0 20px 0 20px;
     }
 
+    .inner__content-button {
+        width: 100%;
+    }
 
+    .inner__content-button-apple {
+        margin-left: 83px;
+    }
 
+    .inner__content-button-p {
+        margin-left: 137px;
+    }
+
+    .inner__content-button-h1 {
+        margin-left: 138px;
+    }
+
+    .content-wrapper-z {
+        flex-direction: column;
+        padding: 0 20px 20px 20px;
+    }
+
+    .div_list {
+        width: 100%;
+        height: 210px;
+        margin: 20px 0 0 0;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        white-space: nowrap;
+        z-index: 10;
+    }
 
     .list {
-        display: flex;
-        flex-direction: row;
-        overflow-x: scroll;
+
+        width: 100%;
+        height: 210px;
+    }
+
+    .list__item {
+        display: inline-block;
+        width: 215px;
+        height: 210px;
 
     }
+
+    .list__item-pic {
+        margin-top: 20px;
+        margin-left: 20px;
+        height: 59px;
+        width: 59px;
+    }
+
+    .list__item-head {
+        margin-top: 94px;
+        margin-left: 20px;
+    }
+
+    .list__item-content {
+        margin: 5px 20px 20px 20px;
+        white-space: normal;
+    }
+
+
+    .penny__pic {
+        width: 158px;
+        height: 156.32px;
+    }
+
 
 }
 
