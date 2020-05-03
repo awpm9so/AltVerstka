@@ -239,11 +239,11 @@ header {
 }
 
 
-/*
+
 .div_list::-webkit-scrollbar {
     display: none;
 }
-*/
+
 
 .list__item {
     position: relative;
@@ -388,11 +388,14 @@ footer {
         margin: 30px;
     }
 
-    .block__pic {
-        padding: 0;
-        margin-top: 30px;
+    .block__pic img {
+        width: 148px;
+        height: 148px;
     }
 
+    .block__pic {
+        padding: 30px 157px 30px 30px;
+    }
 
     .alien-pic {
         width: 176px;
@@ -476,13 +479,31 @@ footer {
         white-space: normal;
     }
 
+    .footer-wrapper {}
+
+    .penny {
+        margin-bottom: 65px;
+        margin-right: 20px;
+    }
 
     .penny__pic {
         width: 158px;
         height: 156.32px;
+
     }
 
+    .footer__text {
+        display: none;
+    }
 
+    .baloon img {
+        height: 128.33px;
+        left: 355px;
+    }
+
+    .baloon {
+        padding: 0 20px 80px 286px;
+    }
 }
 
 /*Media end*/
